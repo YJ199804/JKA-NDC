@@ -29,4 +29,4 @@ python main.py --dataset photo --runs 100 --epochs 200 --lr 0.005 --weight_decay
 ## Results
 model	|Cora	|CiteSeer	|PubMed|Amazon Computers	|Amazon Photo	
 ------ | -----  |----------- |---|--- | -----  |
-JKA-NDC|	84.1% |	74.5%|	82.1%|83.8%|	93.5% |
+JKA-NDC|	84.1% |	74.5%|	82.2%|83.8%|	93.5% |
