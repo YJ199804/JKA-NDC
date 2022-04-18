@@ -15,15 +15,15 @@ python main.py --dataset CiteSeer --epochs 600 --lr 3e-2 --weight_decay 1e-3 --d
 ```
 PubMed
 ```javascript 
-python main.py --dataset pubmed --runs 100 --epochs 400 --batch_size 2500 --lr 0.01 --weight_decay 0.0005 --dropout 0.2 --hidden 400 --hidden_z 400 --early_stopping 10 --alpha 10 --beta 1 --tau 0.5 --order 4
-```
-Amazon Computers
-```javascript 
-python main.py --dataset computers --runs 100 --epochs 300 --lr 0.005 --weight_decay 0.0005 --dropout 0.4 --hidden 400 --hidden_z 300 --early_stopping 10 --alpha 30 --beta 3 --tau 4 --order 6
+python main.py --dataset PubMed --epochs 600 --lr 1e-2 --weight_decay 2e-4 --dropout 0.2 --hidden_dim 200 --alpha 1 --tau 1 --k 3
 ```
 Amazon Photo
 ```javascript 
-python main.py --dataset photo --runs 100 --epochs 200 --lr 0.005 --weight_decay 0.0005 --dropout 0.5 --hidden 200 --hidden_z 200 --early_stopping 10 --alpha 25 --beta 3 --tau 4 --order 5
+python main.py --dataset photo --epochs 500 --lr 5e-3 --weight_decay 1e-3 --dropout 0.3 --hidden_dim 200 --alpha 3 --tau 4 --k 4
+```
+Amazon Computers
+```javascript 
+python main.py --dataset computers --epochs 500 --lr 1.5e-3 --weight_decay 1e-3 --dropout 0.4 --hidden_dim 500 --alpha 1.5 --tau 4 --k 2
 ```
 
 ## Results
